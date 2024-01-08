@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+
+        
+    <form method="post" action="/users/login" target="_blank">
+        <input type="text" name="name" required placeholder="Adinizi Giriniz"> <br> <br>
+        <input type="text" name="surname" required placeholder="Soyadinizi Giriniz"> <br> <br>
+        <input type="number" name="number" placeholder="Maasinizi Giriniz"> <br> <br>
+        <input type="email" name="email" placeholder="E-mail Giriniz"> <br> <br>
+        <input type="tel" name="tel" placeholder="Tel No Giriniz"> <br> <br>
+
+        <input type="password" name="password" minlength="5" maxlength="20" required placeholder="Parola Giriniz"> <br> <br>
+        <input type="search" name="search" placeholder="Arama yap"><br><br>
+        <input type="url" name="website" placeholder="Web Site"> <br> <br>
+        <input type="hidden" name="code"> <br> <br>
+
+        <input type="radio" name="cinsiyet" id="E">
+        <label for="E">Erkek</label>
+        <input type="radio" name="cinsiyet" id="K">
+        <label for="K">Kadin</label> <br> <br>
+
+        <input type="checkbox" name="user" id="chk" checked disabled>
+        <label for="chk">Maasimi eksiksiz aldim</label> <br><br>
+
+        <input type="file" name="cv"> <br> <br>
+
+        <input type="color" name="color"> <br> <br>
+
+        <input type="range" name="range"> <br> <br>
+
+        <input type="date" name="tarih"> <br> <br>
+
+        <input type="time" name="saat"> <br> <br>
+
+        <input type="datetime-local" name="tarih/saat" id=""> <br> <br>
+    
+        <input type="month" name="month"> <br> <br>
+
+        <input type="week" name="week"> <br><br>
+
+        <select name="cities" multiple size="5">
+            <option value="" disabled>Lütfen Bir Şehir Seçiniz</option> <br><br>
+            <option value="42">Konya</option>
+            <option value="70">Karaman</option>
+            <option value="35">İzmir</option>
+        </select> <br> <br>
+        
+        <select name="meals" multiple size="2">
+            <option value="1">Hamsi Tava</option>
+            <option value="2">Hamsi Buglama</option>
+            <option value="3">Hamsi Izgara</option>
+        </select> <br> <br>
+        <textarea name="comment" id="com" cols="30" rows="10" maxlength="25"></textarea>
+        <br><br>
+
+        <input type="button" value="Kaydet">
+        <input type="submit" value="Gonder">
+        <input type="reset" value="Temizle">
+        <br><br>
+
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilgi Form</title>
+  </head>
+  <body>
+    <table border="0">
+      <tbody>
+        <tr>
+          <td > 
+            <label>Adi</label></td>
+                      
+          <td>
+              <input type="text" name="Adi" placeholder="Adinizi Giriniz"></td>
+                
+          <td><label>Hobiler</label>
+                  <td rowspan="3" >
+                    <input type="checkbox" name="Hobi" id="hb">
+                    <label for="hb">Futbol</label><br>
+            <input type="checkbox" name="Hobi" id="hb">
+                <label for="hb">Voleybol</label><br>
+            <input type="checkbox" name="Hobi" id="hb">
+                <label for="hb">Basketbol</label>         
+            
+             </td>
+            </td>
+        </tr>
+
+        <tr>            
+          <td> <label >Soyadi</label> </td>
+         <td>
+             <input type="text" name="Soyadi" placeholder="Soyadinizi Giriniz">
+        </td>          
+        </tr>
+
+        <tr>
+          <td> <label >Cinsiyet</label></td>
+          <td>
+              <input type="radio" name="Cinsiyet" id="E">
+              <label for="E">Bay</label>
+
+              <input type="radio" name="Cinsiyet" id="K">
+              <label for="K">Bayan</label>
+          </td>          
+        </tr>
+
+        <tr>
+          <td><label >Ilce</label></td>
+          <td>
+              <select>
+                  <option>Lütfen bir ilce seçiniz</option>
+                  <option value="Gemerek">Gemerek</option>
+                  <option value="Karatay">Karatay</option>
+                  <option value="Nazilli">Nazilli</option>
+                  <option value="Şirintepe">Sirintepe</option>
+              </select>
+          </td>
+          <td><Label>Profil Fotoğrafi</Label> <td><input type="file" name="resim" placeholder="Dosya Seçiniz"></td>
+        </tr>
+
+        <tr>
+          <td><label>E-posta</label>
+          </td><td>
+              <input type="email" name="Adı" placeholder="E-postanizi Giriniz"></td>
+          <td><label >Dogum Tarihi</label><td><input type="date" name="dogumtarihi" id=""></td></td>
+        </tr>
+
+        <tr>
+          <td><label>Kisisel Site</label>
+          </td><td>
+              <input type="url" name="Kisisel Site" placeholder="Site bağlantisi giriniz"></td>
+
+          <td><label >Adres</label><td><textarea name="comment" id="com" cols="32" rows="3" maxlength="20"></textarea></td></td>
+          
+        <tr>
+          <td><label>Telefon</label>
+          </td><td>
+              <input type="tel" name="Telefon" placeholder="Telefon numaranizi giriniz"></td>
+         
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="button" value="Kayit Ol"></td>
+          </tr>
+        </tr>
+        </tr>
+      </tbody>
+    </table>
+    
+ </body>
+</html>
