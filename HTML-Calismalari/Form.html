@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>odev 02</title>
+  </head>
+  <body style="background-color: rgb(218, 233, 142)">
+    <form action="">
+      <center>
+        <table
+          width="700px"
+          style="
+            background-color: rgb(166, 182, 83);
+            padding: 15px;
+            color: #626262;
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-top: 20px;
+          "
+        >
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td>
+                    <label for="ad">Adi</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="ad"
+                      placeholder="Adiniz"
+                      style="border-radius: 3px"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="soyad">Soyadi</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="soyad"
+                      placeholder="Soyadiniz"
+                      style="border-radius: 3px"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Cinsiyet</td>
+                  <td>
+                    <input type="radio" name="cinsiyet" id="e" />
+                    <label for="e">Bay</label>
+                    <input type="radio" name="cinsiyet" id="k" />
+                    <label for="k">Bayan</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Ilce</td>
+                  <td>
+                    <select style="border-radius: 3px">
+                      <option value=""></option>
+                      <option value="">Cemisgezek</option>
+                      <option value="">Tosya</option>
+                      <option value="">Urla</option>
+                      <option value="">Sincan</option>
+                      <option value="">Pursaklar</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="email"> E-posta </label>
+                  </td>
+                  <td>
+                    <input type="email" id="email" placeholder="E-postaniz" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="website">Kisisel Site</label>
+                  </td>
+                  <td>
+                    <input type="url" id="website" placeholder="Web Siteniz" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="tel">Telefon</label>
+                  </td>
+                  <td>
+                    <input
+                      type="tel"
+                      id="tel"
+                      placeholder="+90"
+                      maxlength="13"
+                      minlength="13"
+                    />
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <table>
+                <tr>
+                  <td>Hobiler</td>
+                  <td rowspan="3">
+                    <input id="futbol" type="checkbox" />
+                    <label for="futbol">Futbol</label>
+                    <br />
+                    <input type="checkbox" id="voleybol" />
+                    <label for="voleybol">Voleybol</label>
+                    <br />
+                    <input type="checkbox" id="basketbol" />
+                    <label for="basketbol">Basketbol</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    <label for="foto">Profil Fotografi</label>
+                  </td>
+                  <td>
+                    <input type="file" id="foto" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="date">Dogum Tarihi</label>
+                  </td>
+                  <td>
+                    <input type="date" id="date" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="adres">Adresiniz</label>
+                  </td>
+                  <td>
+                    <textarea
+                      id="adres"
+                      cols="25"
+                      rows="3"
+                      style="resize: none"
+                    ></textarea>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td align="center">
+                <input
+                      type="submit"
+                      value="Kayit ol"
+                      style="
+                        width: 200px;
+                        height: 50px;
+                        color: rgb(166, 182, 83);
+                        cursor: pointer;
+                        background-color: rgb(92, 103, 36);
+                        outline: none;
+                        border: 0;
+                        border-radius: 15px;
+                        font-size: 18px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                      "
+                    />
+            </td>
+          </tr>
+        </table>
+
+      </center>
+    </form>
+  </body>
+</html>
